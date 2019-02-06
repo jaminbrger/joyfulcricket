@@ -1,0 +1,138 @@
+
+/* 
+Project Name: Joyful Criket
+Client: One Month
+Developed @ One Month 
+*/
+body {
+    background: url('../images/sheep.jpg');
+    /* the follow is the code to have the image display as a full page */
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ;
+}
+
+.content {
+  position:relative;
+  text-align: center;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size:80px;
+  letter-spacing: 2px;
+  padding-top: 200px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color:#b3d78d;
+  letter-spacing: 3.5px;
+  padding-bottom: 200px;
+} 
+
+#gallery {
+  background: #ffffff;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+
+h3 {
+  padding: 80px 0 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  color:#b3d78d;
+  letter-spacing: 1.6;
+}
+
+.inner {
+  width: 60%;
+  margin: 0 auto;
+}
+
+p {
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:#1a2344;
+  line-height: 1.5;
+}
+
+/*.img {
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+  display: inline; -- this needs to be on the child element - not the parent...display: inline, it ignores floats, height and width
+}
+*/
+
+.img {
+  width: 100%;
+}
+
+.img a {
+  padding:60px 0;
+  width: 25%;
+  display: inline-block;
+  padding-bottom:100px;
+}
+
+.img a:hover {
+  opacity: 0.6;
+  color: #b3d78d;
+}
+
+.cricket {
+    background-color: #1a2344;
+    padding: 40px 0 60px;
+}
+
+.cricket p {
+  padding-top:10px;
+  text-align: center;
+  font-size:26px;
+  font-family: 'Playfair Display', serif;
+  color:#ffffff;
+  background-color: #1a2344;
+  letter-spacing: 1.6px;
+}
+
+
+
+.shoutout {
+  background-color: #b3d78d;
+  width: 100%;
+  color:#ffffff; 
+  padding: 80px;
+  margin:0 auto;
+}
+
+.shoutout p {
+  text-align: center;
+  background-color: #b3d78d;
+  padding-top:10px;
+  font-size:26px;
+  font-family: 'Playfair Display', serif;
+  color:#ffffff;
+  letter-spacing: 1.6px;
+}
+
+.shoutout a {
+    text-decoration: none,
+}
+
+.etsy {
+  width:30px;
+  text-align: center;
+}
